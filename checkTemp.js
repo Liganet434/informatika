@@ -1,4 +1,4 @@
-let checkTemp = (temp) => (
+let checkTemp = (temp) => {
     if (temp <= 20) {
         return -1 //too cold
     }
