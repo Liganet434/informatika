@@ -1,8 +1,8 @@
-let countCode  = (letter) => {
+let countCode = (letter) => {
   found = 0
   codeNum = 0
   while (codeNum < data.length) {
-      if (data[codeNum].startWith(letter)) {
+      if (data[codeNum].startsWith(letter)) {
         found ++
         //console.log(found)
       }
@@ -11,10 +11,8 @@ let countCode  = (letter) => {
   return found
 }
 
+console.log(countCode("U"))
+
 console.log(countCode("I"))
 
-console.log(countCode("k"))
-
-console.log(countCode("i"))
-
-console.log(countCode("s"))
+console.log(countCode("K"))
