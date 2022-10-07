@@ -1,4 +1,4 @@
-let counCode  = (letter) => {
+let countCode  = (letter) => {
   found = 0
   codeNum = 0
   while (codeNum < data.length) {
