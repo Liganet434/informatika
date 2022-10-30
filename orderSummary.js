@@ -29,5 +29,5 @@ var vatartthr = 0.2;
 
 
 
-console.log(overNumber + nameartone)
+console.log(overNumber + ", " + nameartone)
 
